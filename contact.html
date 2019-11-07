@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/contact.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+        </div>
+        <div class="logo">
+            <a href="#top"><img src="assets/imgs/logo.png" class="logoImg"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="/">Back to Home</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col">
+                <p>
+                    <h2>My contact info</h2>
+                    <ul>
+                        <li>
+                            Email@email.com
+                        </li>
+                        <li>
+                            Website.com
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col">
+                <form id="contactForm" action="https://formspree.io/mlernedd" method="POST">
+                    <div class="row">
+                        <div class="col paddingRight">
+                            <input type="text" name="name" id="name" required="" placeholder="First Name">
+                        </div>
+                        <div class="col paddingLeft">
+                            <input type="text" name="lastName" id="last-name" required="" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col contactFormCol paddingRight">
+                            <input type="email" name="email _replyto" id="email" required="" placeholder="Email">
+                        </div>
+                        <div class="col contactFormCol paddingLeft">
+                            <input type="text" name="subject" id="subject" required="" placeholder="Subject">
+                        </div>
+                    </div>
+                    <textarea name="message" rows="4" id="message" placeholder="Your Message"></textarea><br>
+                    <button class="button btnSubmit" type="submit" id="submit" value="SUBMIT">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <footer class="text-center">
+        <p class="text-center">© Tamara Andreevska |
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+        </p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
